@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Login Form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <section class="container">
+    <form id="forms" >
+      <div class="inputCont" id="emailContainer">
+        <label for="email">Email</label>
+        <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Example@email.com"
+                required
+        />
+      </div>
+      <div class="inputCont" id="passContainer">
+        <label for="password">Password</label>
+        <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Your Password"
+                required
+        />
+      </div>
+      <button>Submit</button>
+    </form>
+
+  </section>
+</main>
+<!-- JS file -->
+<script src="script.js"></script>
+</body>
+</html>
